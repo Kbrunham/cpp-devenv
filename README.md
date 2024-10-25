@@ -6,4 +6,11 @@ This is a template project for C++ projects using a DevContainer. It includes a 
 Includes:
    * CXX Opts v3.2.1 (In Tree)
    * Google Test v1.15.2 (In Tree)
-   * Boost 1.86 (In Container)
+   * Boost 1.86 (In Tree)
+
+
+## Usage
+
+Set a repo secret called GH_TOKEN with a token generated using **gh auth token**
+Set a dependabot secret called GH_TOKEN with a token generated using **gh auth token**
+Set branch protections with required status checks for **style-check-status** and **build-test-status**
