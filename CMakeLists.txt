@@ -61,6 +61,6 @@ project_add_test(
         # Source files. Semicolon separated
         "test_main.cpp"
 
-        # Libs. Space separated
-        Boost::headers
+        # Libs. Semicolon separated
+        "Boost::headers"
 )
